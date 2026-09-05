@@ -1,0 +1,17 @@
+# Secrets — never commit real passphrases
+.streamlit/secrets.toml
+
+# Database (contains real expense data)
+wedding_expenses.db
+*.db-journal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS/editor cruft
+.DS_Store
+.idea/
+.vscode/
